@@ -4,11 +4,6 @@
 #include <ros/ros.h>
 #include <sensor_msgs/image_encodings.h>
  
-// Author: Addison Sears-Collins
-// Website: https://automaticaddison.com
-// Description: A basic image publisher for ROS in C++
-// Date: June 27, 2020
- 
 int main(int argc, char** argv)
 {
     ros::init(argc, argv, "video_pub_cpp");

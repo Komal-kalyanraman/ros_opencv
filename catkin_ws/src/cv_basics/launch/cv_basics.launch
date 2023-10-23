@@ -11,4 +11,10 @@
     name="webcam_sub"
     output="screen"
   />
+  <node
+    pkg="cv_basics"
+    type="webcam_rec"
+    name="webcam_rec"
+    output="screen"
+  />
 </launch>
